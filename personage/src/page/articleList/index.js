@@ -5,7 +5,7 @@ const Topics = ({ match }) => (
         <h2>Topics</h2>
         <ul>
             <li>
-                <Link to={`${match.url}/rendering`}>Rendering with React</Link>    3
+                <Link to={`${match.url}/rendering`}>Rendering with React</Link>
 
             </li>
             <li>

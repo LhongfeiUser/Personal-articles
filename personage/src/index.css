@@ -11,6 +11,9 @@ a{
     text-decoration: none;
     color:#000;
 }
+ul,li{
+    list-style: none;
+}
 body{
     background:url("./img/bg_body.gif") repeat;
 }
