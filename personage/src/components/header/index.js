@@ -7,8 +7,8 @@ class Header extends React.Component{
             <header>
                 <Link to='/'>
                     <div className ="title">
-                        <span>我的文章</span>
-                        <span>不是没想过放弃，就是觉得还能在坚持</span>
+                        <h2>我的文章</h2>
+                        <span> <b>不是没想过放弃，就是觉得还能在坚持</b> </span>
                     </div>
                 </Link>
                 <div className = 'logo'> </div>
