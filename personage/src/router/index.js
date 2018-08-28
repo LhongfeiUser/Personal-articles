@@ -12,4 +12,4 @@ const RouterMap = () => (
         </div>
     </Router>
 );
-export default RouterMap;
+export default RouterMap ;

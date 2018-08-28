@@ -1,42 +1,54 @@
-.main{
+.main {
   display: flex;
   justify-content: space-between;
-  .articleList{
-    width:80%;
-    padding:0 1rem;
-    li{
-      margin:.5rem auto;
-      h5:nth-child(1){
+  .articleList {
+    width: 80%;
+    padding: 0 1rem;
+    li {
+      margin: .5rem auto;
+      h5:nth-child(1) {
         background: url("../../img/line.gif") repeat;
       }
-      h5:nth-child(2){
-        margin:.25rem auto;
+      h5:nth-child(2) {
+        margin: .25rem auto;
       }
-      p{
-        font-size:.35rem;
+      p {
+        font-size: .35rem;
         text-align: justify;
-        a{
-          color:blue;
+        a {
+          color: blue;
         }
       }
     }
-    li:nth-child(1){
+    li:nth-child(1) {
       display: flex;
       justify-content: space-between;
-      color:darkblue;
-      span{
+      color: darkblue;
+      span {
         padding: 0 .2rem;
       }
-      .nav_left{
-        span:nth-child(1){
-          padding-left:0;
+      .nav_left {
+        span:nth-child(1) {
+          padding-left: 0;
         }
         cursor: pointer;
       }
 
     }
   }
-  .sidebar_box{
-    width:20%;
+  .sidebar_box {
+    width: 20%;
   }
+}
+
+@media screen and (min-width: 1200px) {
+ .main{
+   .articleList {
+     li {
+       p {
+         font-size: .3rem;
+       }
+     }
+   }
+ }
 }
